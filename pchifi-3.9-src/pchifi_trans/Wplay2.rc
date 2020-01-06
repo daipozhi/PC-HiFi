@@ -1,0 +1,177 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "windowsx.h"
+#include "mmsystem.h"
+#include "commdlg.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "direct.h"
+#include "ctype.h"
+#include "string.h"
+#include "io.h"
+#include "dos.h"
+#include "errno.h"
+#include "math.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MAINSCREEN DIALOG DISCARDABLE  10, 35, 285, 203
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PC HiFi Transforms "
+MENU MainMenu
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         ID_LISTBOX,12,48,97,132,LBS_SORT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "no use",ID_OPTIONS,140,67,50,14
+    PUSHBUTTON      "P&repare All",ID_DELETE,140,48,50,14
+    PUSHBUTTON      "no use",ID_STOP,197,30,50,14
+    PUSHBUTTON      "no use",ID_ABOUT,197,48,50,14
+    PUSHBUTTON      "no use",ID_HELP,197,67,50,14
+    PUSHBUTTON      "no use",ID_PLAY,128,151,44,16
+    PUSHBUTTON      "&About",ID_PAUSE,128,170,44,15
+    PUSHBUTTON      "E&xit",ID_EXIT,222,150,42,17
+    PUSHBUTTON      "no use",ID_NEXT,175,151,44,16
+    PUSHBUTTON      "no use",ID_SAVE,175,170,44,15
+    PUSHBUTTON      "&Help",ID_RECORD,222,169,42,16
+    EDITTEXT        ID_DIRECTORY,12,27,98,12,ES_READONLY | NOT WS_BORDER | 
+                    NOT WS_TABSTOP
+    EDITTEXT        ID_STAT,136,114,116,12,ES_CENTER | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,7,19,107,173
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,132,19,126,82
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,128,107,135,24
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,125,143,143,49
+    PUSHBUTTON      "Plat For&m",ID_PREV,140,30,50,14
+END
+
+ABOUTBOX DIALOG DISCARDABLE  58, 20, 329, 148
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "About..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&OK",ID_OK,135,113,50,14
+    CTEXT           "PC HiFi Transforms",-1,77,6,172,11
+    CTEXT           "Writen By DaiPoZhi (purposeday2@yahoo.com)",-1,23,
+                    23,281,11
+    CTEXT           "Version 3.9",-1,74,95,172,9
+    CTEXT           "FFT By Don Cross <dcross@intersrv.com>",-1,20,71,287,8
+    CTEXT           "waveIn and waveOut API calls  By Creative Labs,Inc",-1,
+                    53,46,215,11
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windowsx.h""\r\n"
+    "#include ""mmsystem.h""\r\n"
+    "#include ""commdlg.h""\r\n"
+    "#include ""stdio.h""\r\n"
+    "#include ""stdlib.h""\r\n"
+    "#include ""direct.h""\r\n"
+    "#include ""ctype.h""\r\n"
+    "#include ""string.h""\r\n"
+    "#include ""io.h""\r\n"
+    "#include ""dos.h""\r\n"
+    "#include ""errno.h""\r\n"
+    "#include ""math.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "MAINSCREEN", DIALOG
+    BEGIN
+        TOPMARGIN, 4
+    END
+
+    "ABOUTBOX", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
